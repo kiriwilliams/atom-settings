@@ -169,9 +169,9 @@
   'Liquid schema':
     'prefix': 'schema'
     'body': """
-    {%- schema -%}
+    {% schema %}
       ${1}
-    {%- endschema -%}
+    {% endschema -}
     """
 
   'Liquid product.id':
