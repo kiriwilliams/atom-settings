@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+  "_id": "atom-liquid-snippets@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zbwnVz+J7KNUSDKb23c4SYx6Rx69P3XUY//qv9BVvV4M0PYRWHJTkzNSyhjum3S+vHVMqfZj/VFPsoj+s3CytQ==",
+  "_location": "/atom-liquid-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+  "_shasum": "f72c1c5c3a02d0a1deec37e8b14293137f5a5f2e",
+  "_spec": "https://www.atom.io/api/packages/atom-liquid-snippets/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/fm/lvlsb6c17t9d5qkfgksryfmh0000gq/T/apm-install-dir-119812-14283-1yjirh6.sihk",
+  "activationCommands": {
+    "atom-workspace": "atom-liquid-snippets:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/rickmurt/atom-liquid-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Atom snippets for liquid (shopify) syntax",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rickmurt/atom-liquid-snippets#readme",
+  "keywords": [
+    "liquid",
+    "shopify"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-liquid-snippets",
+  "name": "atom-liquid-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickmurt/atom-liquid-snippets.git"
+  },
+  "version": "0.3.0"
+}

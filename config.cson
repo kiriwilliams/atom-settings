@@ -1,0 +1,19 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fe569c85-1153-47d9-af21-8f5772c6caa1"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    softWrap: true
+  "exception-reporting":
+    userId: "bdc1205c-167b-4387-b86f-d78cec95f2e9"
+  "linter-ui-default":
+    showPanel: true
+  minimap: {}
+  welcome:
+    showOnStartup: false

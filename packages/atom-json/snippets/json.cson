@@ -1,0 +1,62 @@
+########################################################
+#            Atom JSON Snippet                        #
+#                @code4mk                            #
+#####################################################
+
+'.source.json':
+
+  "properties->json":
+    "prefix": "jsn-properties"
+    "body": """
+    "name$1": "$2"
+    """
+  "objects->json":
+    "prefix": "jsn-objects"
+    "body": """
+    "test": {
+      "start$1": "$2",
+      "build$1": "$2",
+      "eject$1": "$2"
+    }
+    """
+  "array->json":
+    "prefix": "jsn-array"
+    "body": """
+    "test": [
+      "a",
+      "b"
+    ]
+    """
+  "properties bolean->json":
+    "prefix": "jsn-bolean"
+    "body": """
+    "test$1": true/false
+    """
+  "properties value->json":
+    "prefix": "jsn-value"
+    "body": """
+    "test$1": 2
+    """
+  "array objects->json":
+    "prefix": "jsn-aob"
+    "body": """
+    "test" : [
+      { "a": "$2", "b": "$2", "c": 35 },
+      { "a": "$2", "b": "$2", "c": 32 }
+    ]
+    """
+  "Demo->json":
+    "prefix": "jsn-demo"
+    "body": """
+    {
+      "name": "$1",
+      "version": "$1",
+      "description": "$",
+      "keywords": [
+        "$1",
+        "$2",
+        "$3",
+        "$4"
+      ]
+    }
+    """

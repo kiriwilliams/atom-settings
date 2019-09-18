@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+  "_id": "atom-json@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Wix/mIizimlCvrxHZVoiLdGQeUioYAyL8lPp2VTiDbJeyCc5YCUD39tooyQALRcmDKAT0lvqc+Wp/EXpKqK8Tg==",
+  "_location": "/atom-json",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+  "_shasum": "5751f0ecb275d85ecb7e49011653702946daa8eb",
+  "_spec": "https://www.atom.io/api/packages/atom-json/versions/0.6.0/tarball",
+  "_where": "/private/var/folders/fm/lvlsb6c17t9d5qkfgksryfmh0000gq/T/apm-install-dir-119813-16790-1dlwz2o.isnb",
+  "bugs": {
+    "url": "https://github.com/code4mk/atom-json/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "JSON Snippet   >> Snippet >> json by @code4mk",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/code4mk/atom-json#readme",
+  "keywords": [
+    "json",
+    "JSON",
+    "Syntax",
+    "color"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-json-color",
+  "name": "atom-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4mk/atom-json.git"
+  },
+  "version": "0.6.0"
+}
