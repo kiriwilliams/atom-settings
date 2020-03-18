@@ -9,11 +9,20 @@
       "base16-tomorrow-dark-theme"
     ]
   editor:
+    fontSize: 13
     softWrap: true
   "exception-reporting":
     userId: "bdc1205c-167b-4387-b86f-d78cec95f2e9"
   "linter-ui-default":
+    panelHeight: 166
     showPanel: true
   minimap: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+core:
+  customFileTypes:
+    "source.javascript": [
+      "js.liquid"
+    ]

@@ -19,3 +19,21 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.yaml':
+  'Shop Config':
+    'prefix': 'config'
+    'body': """
+    development:
+        password: $1
+        theme_id: "$2"
+        store: $3
+    """
+  'Theme Config':
+    'prefix': 'config'
+    'body': """
+      development:
+      password: $1
+      theme_id: "$2"
+      store: $3
+    """

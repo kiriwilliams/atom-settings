@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+  "_id": "open-path@0.3.6",
+  "_inBundle": false,
+  "_integrity": "sha512-C06Dx9JXYmXfKfxcdkolgtdBvyaoA+fploBQqUIg6O89tTrcN6LolYGxTz+/iLiv3eYdZKRn9wgFw9fK9uT0MA==",
+  "_location": "/open-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+  "_shasum": "81d2afbd9916a90728b91b9ade66b55285febcde",
+  "_spec": "https://www.atom.io/api/packages/open-path/versions/0.3.6/tarball",
+  "_where": "/private/var/folders/_c/6nlhsw3157gfn4svxywcr5v40000gn/T/apm-install-dir-119911-17580-1dezduh.9gls",
+  "activationCommands": {
+    "atom-text-editor": [
+      "open-path:open",
+      "open-path:copy-image-size"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/zsytssk/open-path/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fs-plus": "^2.8.1",
+    "image-size": "latest",
+    "underscore-plus": "^1.6.6"
+  },
+  "deprecated": false,
+  "description": "open file or url under cursor by one shortcut",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/zsytssk/open-path#readme",
+  "keywords": [
+    "open file",
+    "open url"
+  ],
+  "license": "MIT",
+  "main": "./lib/open-path",
+  "name": "open-path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsytssk/open-path.git"
+  },
+  "version": "0.3.6"
+}
